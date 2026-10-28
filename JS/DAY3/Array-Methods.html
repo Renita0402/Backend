@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// TASK 1 Some()
+
+
+// const arr =[10, 20, 30, 40]
+// const result =  arr.some ((arr)=> arr>35);
+// console.log(result);
+
+
+// TASK 2 every ()
+
+
+// const marks = [50,80,83,98,48]
+// const result = marks  .every((mark)=> mark>75)
+// console.log(result);
+
+
+
+
+// Task 3 includes()
+
+// const roles = ["Manager","Admin","TL","Employee"]
+
+// const currentRole = "Admin";
+
+// const result = roles.includes(currentRole);
+
+// console.log(result);    
+
+
+// Task 4 reduce()
+
+// const salary = [40000 , 55000 , 30000, 23000]
+
+// const total = salary.reduce((sum,salary)=>{
+
+//     return sum + salary;
+// },0);
+
+// console.log(total);
+
+
+// Task 5 reduce()
+
+// const cart = [
+//   { name: "Laptop", price: 50000, qty: 1 },
+//   { name: "Mouse", price: 500, qty: 2 },
+//   { name: "Keyboard", price: 1500, qty: 1 }
+// ];
+
+// const total = cart.reduce((sum, item) => {
+//   return sum + item.price * item.qty;
+// }, 0);
+
+// console.log(total);
+
+
+
+
+// Task 6  fillter()
+
+// const employees = [
+//   { name: "renita", salary: 30000 },
+//   { name: "Priya", salary: 50000 },
+//   { name: "san", salary: 25000 }
+// ];
+
+// const result = employees.filter(
+//   (employee) => employee.salary >= 30000
+// );
+
+// console.log(result);
+
+
+// Task 7 findid()
+
+
+// const students = [
+//   { id: 1, name: "Renita" },
+//   { id: 2, name: "san" },
+//   { id: 3, name: "Ram" }
+// ];
+
+// const result = students.find(
+//   (student) => student.id === 2
+// );
+
+// console.log(result);
+
+
+
+// Task 8 sort
+
+// const prize = [45000,25000,30000,66000]
+
+// const ascending = [...prize].sort ((a, b) => a - b);
+
+// const descending = [...prize].sort((a, b) => b - a);
+
+// console.log(ascending);
+
+// console.log(descending);
+
+
+// Task 10 Map
+
+const Employee = [
+    
+      {id:1, name: "renita" , role:"IT"},
+      {id:2, name: "san" , role:"Developer"},
+      {id:3, name: "ram" , role:"Testing"}
+
+    ]
+
+    const empname = Employee.map((Employee) => Employee.name);
+
+    console.log(empname);
+ 
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
